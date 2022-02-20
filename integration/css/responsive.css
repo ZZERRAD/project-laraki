@@ -1,0 +1,374 @@
+@media(min-width: 1350px) {
+    .leftside {
+        margin: 10% 0px;
+    }
+}
+@media (max-width: 1350px){
+    #myNavbar {
+        margin-left: -20px;
+    }
+    .logo1 {
+        width: 170px;
+    }
+    .nav-link {
+        font-size: 14px;
+        margin: 3px 1%;
+    }
+    .anchor1 {
+        font-size: 17px;
+        padding: 13px 13px;
+    }
+    .t1 {
+        font-size: 100px;
+    }
+    .t2,.t4,.t5 {
+        font-size: 80px;
+    }
+}
+@media (max-width:1100px){
+    .nav-link {
+        font-size: 13px;
+        margin: 3px 1%;
+        letter-spacing: 0px;
+    }
+    .logo1 {
+        width: 150px;
+    }
+    .anchor1 {
+        font-size: 14px;
+        padding: 12px 12px;
+        margin: 0;
+    }
+    .helmet1 {
+        margin: 0px;
+    }
+    #myNavbar {
+        margin-left: -20px;
+    }
+    .t1 {
+        font-size: 80px;
+    }
+    .t2,.t4,.t5 {
+        font-size: 60px;
+    }
+    .setcion5 {
+        background-size: auto 10%;
+    }
+    .detail {
+        margin-bottom: -30%;
+    }
+    .client {
+        font-size: 16px;
+    }
+}
+@media(max-width: 991px){
+    body {
+        overflow-x: hidden;
+    }
+    .whiteshape, 
+    .xxx, 
+    .whiteshape2, 
+    .xxx2, 
+    .ylines, 
+    .ylinesright {
+        display: none;
+    }
+    .paragraph {
+        font-size: 14.5px;
+        line-height: 20px;
+    }
+    .t3 {
+        display: none;
+    }
+    /* navbar */
+    .custom-navbar {
+       padding-bottom: 20px;
+       background: #fff;
+       transition: all .2s;
+       position: inline-block;
+   }
+   .custom-navbar li {
+       padding: 0 0;
+   }
+   .custom-navbar li a{
+       color: #3d3d3d;   
+   }
+   .custom-navbar li a:hover{
+       color: #000000;
+       text-shadow: 0px .5vw 1vw darkgray;
+   }
+   .nav-item {
+        padding-left: 10px !important;
+    }
+   .logo1 {
+       display: none !important;
+   }
+   .logo2 {
+       margin-top: -10px;
+       display: inherit !important;
+   }
+   .helmet2 {
+       display: inherit !important;
+       margin-bottom: 10px;
+       width: 20px;
+       height: auto;
+   }
+   .helmet1 {
+    width: 20px;
+    height: auto;
+       display: none !important;
+   }
+   .lines {
+       background: #000 !important;
+   }
+   .nav-link {
+       /* text-align: center; */
+       line-height: 40px;
+       font-size: 20px;
+       text-transform: capitalize;
+       font-weight: 400;
+       margin-left: 10px;
+   }
+   .anchor1 {
+       margin-left: 20px;
+   }
+   .anchor1:hover {
+       background: #c3a975;
+       color: #fff;
+   }
+
+
+   #myNavbar {
+       padding-bottom: 0px;
+   }
+   .t1 {
+       font-size: 70px;
+   }
+   .t2,.t4,.t5 {
+        font-size: 60px;
+    }
+   .heading1 {
+       -webkit-text-stroke: 1.5px #fff;
+   }
+   .paragraph {
+       font-weight: 100px;
+       line-height: 24px;
+       font-size: 16px;
+   }
+   .p1 {
+       margin: 20px 40px;
+   }
+   .banner {
+       padding-top: 400px;
+   }
+   .container {
+        max-width: 60%;
+   }
+   .detail {
+    margin-bottom: 10px;
+}
+    .client {
+    font-size: 16px;
+}
+}
+@media (max-width: 767px) {
+    .leftside {
+        margin: 10px 40px;
+    }
+    .custom-navbar {
+        padding-bottom: 20px;
+    }
+    .nav-link {
+        /* text-align: center; */
+        font-size: 15px;
+        text-transform: capitalize;
+        font-weight: 400;
+    }
+    .logo1, .logo2 {
+        margin: 0px;
+        height: auto;
+    }
+    .logo1 {
+        width: 130px;
+    }
+    .logo2 {
+        width: 110px;
+    }
+    .helmet1, .helmet2 {
+        margin: 1px;
+
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .anchor1:hover{
+        background: #c3a975;
+        color: #fff;
+    }
+    /* section1 */
+    .section1 {
+        height: 80vh;
+    }
+    .banner {
+       padding-top: 380px;
+    }
+    .t1 {
+       font-size: 50px;
+       margin-bottom: -10px;
+    }
+    .t2,.t4,.t5 {
+        font-size: 45px;
+    }
+    .t4, .t5 {
+        line-height: 30px;
+    }
+    .p1 {
+       margin: 10px 70px;
+       text-align: center;
+    }
+
+    .anchor2 {
+       padding: 14px 22px;
+       margin-top: 20px;
+    }
+    .envoyez {
+        padding: 10px 52px;
+        margin-top: 20px;
+    }
+    .heading2 {
+       line-height: 40px;
+    }
+    .heading2 .t2 {
+       margin-bottom: 90px;
+    }
+    /* your coach  */
+    .section2 {
+        margin: -150px 0px;
+    }
+    .t2 {
+       font-size: 40px;
+       margin-bottom: -10px;
+    }
+    .p2 {
+        margin-top: 20px;
+    }
+    .watch-link {
+       font-size: 20px;
+       margin: 5px;
+    }
+    .xshapes {
+        width: 30%;
+        margin-top: -25px;
+        margin-left: 2%;
+    }
+    .thecoach {
+        margin-left: 10%;
+        width: 80%;
+    }
+    .section3 {
+       margin-top: 230px;
+    }
+    .rejoinez {
+        margin-bottom: 50px;
+    }
+    .container-img {
+        margin:20px 0px;
+        padding: 0px;
+    }
+    .photo {
+        width: 25%;
+        margin: 5px 40px; 
+        align-items: center;
+    }
+    .photo1, .photo2, .photo3 {
+        display: flex;
+        margin: 0px;
+        align-items:center;
+    }
+    .p3 {
+        font-size: 25px;
+        margin: 0px 20px;
+    }
+}
+@media (max-width: 550px){
+    .leftside {
+        margin-top: -10%;
+        margin-left: 0px;
+    }
+    .p1 {
+        margin: 20px 10px;
+    }
+    .container {
+        max-width: 75%;
+        /* margin-left: 70px; */
+       }
+    fieldset p{
+        margin-top: -5px;
+    }
+    .t2,.t4,.t5 {
+        font-size: 35px;
+    }
+    .heading1 {
+        -webkit-text-stroke: 0.19vw #fff;
+    }
+    .thecoach {
+        width: 100%;
+        margin: 0%;
+    }
+    /* .t3 {
+        margin-left: 10%;
+    } */
+    .section1 {
+        height: 130vh;
+    }
+    .banner {
+        padding-top: 350px;
+    }
+    .t1 {
+        font-size: 50px;
+    }
+    /* .t3 {
+        line-height: 30px;
+    } */
+    .logo2 {
+        padding: -10px -10px;
+        margin: -10px 1px;
+    }
+    .p3 {
+        font-size: 15px;
+        margin: 10px 10px;
+    }
+    .anchor2 {
+        font-size: 18px;
+        padding: 10px 25px;
+    }
+    .section5 {
+        background-size: cover;
+    }
+    .heading1.t4 {
+        margin-top: 20%;
+    }
+    .envoyez {
+        font-size: 18px;
+        padding: 10px 45px;
+    }
+    .socialmedia {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: -40px;
+    }
+    .details {
+        justify-content: center;
+    }
+    .client {
+        font-size: 20px;
+    }
+    .photo1, .photo2, .photo3 {
+        margin-left: -30px;
+    }
+    .photo1 p, .photo2 p, .photo3 p{
+        margin-left: -10px;
+        
+    }
+} 
+
