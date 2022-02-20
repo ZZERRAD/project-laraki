@@ -136,6 +136,11 @@ p {
 .nav-button:focus {/* Navbar btn Toggler */
     outline: none;
 }
+
+.icon-sm {
+    background: red;
+}
+
 .lines {
     width: 30px;
     height: 3px;
