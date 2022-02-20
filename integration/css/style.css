@@ -192,7 +192,8 @@ p {
     padding: 15px 60px;
     color: #fff;
     background: transparent;
-    position: absolute;
+    /* position: absolute;  */
+    margin: auto;
     text-decoration: none;
     left: 50%;
     transform: translateX(-50%);
@@ -208,9 +209,14 @@ p {
 /* ===================================================== */
 /* -----------   SECTION II ----- YOUR COACH ----------- */
 /* ===================================================== */
+
+#about {
+    margin-top: 10%;
+}
+
 .section2 {
     margin-left: 50px;
-    margin-top: -5%;
+    margin-top: 5%;
 }
 .thecoach img {
     width: 100%;
@@ -237,7 +243,7 @@ p {
     top: 83%;
     left: 58%; 
     line-height: 80%;
-    position: absolute;
+    /* position: absolute; */
     color: transparent;
     -webkit-text-stroke: 1.3px #ccc;
     text-transform: uppercase;
@@ -285,6 +291,7 @@ p {
 }
 .a3 {
     margin-top: 3%;
+    position: absolute;
 }
 /* ===================================================== */
 /* -----------   SECTION IV -- NOS CLIENTS ------------- */
