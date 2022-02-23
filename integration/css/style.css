@@ -195,7 +195,7 @@ p {
     font-size: 30px;
     border: 2px solid #fff;
     padding: 15px 60px;
-    color: #fff;
+    color: #fff !important;
     background: transparent;
     /* position: absolute;  */
     margin: auto;
@@ -442,6 +442,12 @@ margin-right: 15%;
     margin-left: 7%;
     margin-top: -5%;
 }
+
+.my-col {
+    background-color: #ccc;
+    margin: 3%;
+}
+
 .anchor3 {
     font-size: 1.5vw;
     margin-top: 5%;

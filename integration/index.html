@@ -80,18 +80,55 @@
             <div class="text-center banner">
                 <h1 class="heading1 t1">build your</h1>
                 <h1 class="heading2 t1">greek god body</h1>
-                <p class="paragraph p1">Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Deserunt expedita
-                    eveniet
-                    aliquid modi corrupti
-                    voluptatem similique distinctio mollitia sunt voluptatibus?</p>
+                <p class="paragraph p1">Transforme ton corps grâce aux programmes de Coaching en ligne proposés par la <b>Teams&nbsp;Greek&nbsp;Gods</b></p>
                 <div class="rejoinez">
-                    <a id="about" class="anchor2" onclick="showPopup()">Rejoinez-nous</a>
+                    <a id="about" class="anchor2" data-toggle="modal" data-target="#exampleModal">Rejoinez-nous</a>
                 </div>
             </div>
+
+
+            <!-- <button type="button" class="btn btn-primary" >
+                Launch demo modal
+            </button> -->
+    
+            <div class="modal" id="exampleModal" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Modal title</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <div class="form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </section>
-        <!-- pop-up form -->
-        <div class="popup">
+        
+        
+        <!-- <div class="popup">
             <div class="popup-content">
                 <form>
                     <div class="form-row">
@@ -142,36 +179,49 @@
                     <a href="#" onclick="closePopup()"><img id="close-button" src="img/close-icon.jpeg" ></a>
                 </form>
             </div>
-        </div>
+        </div> -->
     </div>
     <!-- ================================================================================== -->
     <!-- =======================   SECTION II   =========================================== -->
     <!-- ================================================================================== -->
     <section id="about" class="container-fluid">
-        <div class="row">
-            <!-- <div class="col-lg-1">
-                <img src="img/ylines.png">
-            </div> -->
-            <div class="col-lg-6 leftside">
-                <h1 class="heading1 t2">Your</h1>
-                <h1 class="heading2 t2">coach</h1>
-                <p class="paragraph p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis in, velit ipsa
-                    accusamus rem
-                    commodi, nam consequatur ipsam quam omnis placeat laudantium vero. Doloremque nesciunt tenetur
-                    repudiandae similique quaerat iusto aliquam culpa, voluptas quas accusamus alias, laboriosam hic, a
-                    aspernatur reprehenderit enim ipsa impedit! Accusamus nihil molestiae expedita error tempore.</p>
-                <a href="#" class="link d-flex align-items-center watch-link mb-sm-5">
-                    <i class="fas fa-play-circle fa-lg mr-lg-3 mr-md-2 mr-sm-1 text-light"></i>
-                    Regarder la vidéo
-                </a>
-            </div>
-            <div class="col-lg-6">
-                <div class="thecoach">
-                    <img src="img/imgcoach.png" alt="Team Greek Gods">
-                    <h1 class="t3">Greek<br>Gods</h1>
+        <div style="background-image: url(img/ylines.png); background-repeat: no-repeat">
+            <div class="row" style="margin-left: 58px;">
+                <!-- <div class="col-lg-1">
+                    <img src="img/ylines.png">  
+                </div> -->
+                <div class="col-lg-6 leftside">
+                    <h1 class="heading1 t2">Your</h1>
+                    <h1 class="heading2 t2">coach</h1>
+                    <p class="paragraph p2">
+                        Abdeslam Laraki est l’un des principaux
+                        spécialistes en nutrition sportive au Maroc. Il est titulaire
+                        d’une certification de l’International Sports Sciences
+                        Association (ISSA), une organisation américaine de
+                        référence qui accompagne des coachs du monde entier. 
+                        Il a fondé en 2018 le centre
+                        d’expertise physique <b>Team Greek Gods</b>. <br>
+                        En tant que coach certifié, il vous enseigne les bases et toutes 
+                        les stratégies pour vous aider à sculpter et renforcer votre corps
+                        efficacement et durablement.
+                    </p>
+                    <a href="#" class="link d-flex align-items-center watch-link mb-sm-5">
+                        <i class="fas fa-play-circle fa-lg mr-lg-3 mr-md-2 mr-sm-1 text-light"></i>
+                        Regarder la vidéo
+                    </a>
                 </div>
-                <img class="xshapes" src="img/xxx.png">
+                <div class="col-lg-6">
+                    <div class="thecoach">
+                        <img src="img/imgcoach.png" alt="Team Greek Gods">
+                        <h1 class="t3">Greek<br>Gods</h1>
+                    </div>
+                    <img class="xshapes" src="img/xxx.png">
+                </div>
             </div>
+        </div>
+
+        
+        
             <!-- <div class="row section2 col-lg-11">
                 <div class="col-md-5 leftside">
                     <h1 class="heading1 t2">Your</h1>
@@ -196,7 +246,7 @@
                 </div>
 
             </div> -->
-        </div>
+        
 
     </section>
     <!-- ================================================================================== -->
@@ -234,7 +284,7 @@
     <!-- =======================   SECTION IV   =========================================== -->
     <!-- ================================================================================== -->
     <section id="testimony">
-        <img src="img/ylines.png" class="ylines">
+        <!-- <img src="img/ylines.png" class="ylines"> -->
         <img src="img/whiteShape.png" class="whiteshape">
         <img src="img/verticalxxx.png" class="xxx">
         <div class="text-center">
@@ -293,28 +343,85 @@
     <!-- =======================   SECTION V   ============================================ -->
     <!-- ================================================================================== -->
     <section id="programme" class="section5 my-5">
-        <div class="row pb-5">
-            <div class="col-lg-7 content">
-                <h1 class="heading1 ml-3 t4">nos</h1>
-                <h1 class="heading3 ml-3 t4">Programmes</h1>
-                <p class="paragraph pt-5 mx-3">
-                    Un entraïnement réussi exige d'atteindre une harmonie parfaite entre le corps et l'esprit. Or,
-                    chacun de
-                    nous a des particularités. C'est la raison pour laquelle un programmes indentique pour tous ne
-                    produit
-                    souvent pas les résultats escomptés.
-                    En fonction de vos critères morphologiques, Team Greek Gods vous propose un entraïnement adapté avec
-                    des
-                    résultats garantis dès les premiers mois.</p>
-                <p class="paragraph mx-3 pb-3">Ce coaching fitness en ligne vous permet de gagner du temps en évitant
-                    les
-                    horaires
-                    d'une salle de
-                    sport et les déplacements. En bonus, vous disposez d'un accès à une application d'entainement pour
-                    suivre en temps réel votre état d'avancement.Nous serons en communication 24h/24 et 7j/7 et
+        <div class="col-lg-7 content">
+            <h1 class="heading1 ml-3 t4">nos</h1>
+            <h1 class="heading3 ml-3 t4">Programmes</h1>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 my-col"> 
+                    Le lorem ipsum est, en imprimerie, une suite de mots 
+                    sans signification utilisée à titre provisoire pour 
+                    calibrer une mise en page, le texte définitif venant
+                     remplacer le faux-texte dès qu'il est prêt ou que 
+                     la mise en page est achevée. Généralement, on utilise 
+                     un texte en faux latin, le Lorem ipsum ou Lipsum. 
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 my-col">                     
+                    Le lorem ipsum est, en imprimerie, une suite de mots 
+                    sans signification utilisée à titre provisoire pour 
+                    calibrer une mise en page, le texte définitif venant
+                     remplacer le faux-texte dès qu'il est prêt ou que 
+                     la mise en page est achevée. Généralement, on utilise 
+                     un texte en faux latin, le Lorem ipsum ou Lipsu
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 my-col"> 
+                    Le lorem ipsum est, en imprimerie, une suite de mots 
+                    sans signification utilisée à titre provisoire pour 
+                    calibrer une mise en page, le texte définitif venant
+                     remplacer le faux-texte dès qu'il est prêt ou que 
+                     la mise en page est achevée. Généralement, on utilise 
+                     un texte en faux latin, le Lorem ipsum ou Lipsu
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 my-col"> 
+                    Le lorem ipsum est, en imprimerie, une suite de mots 
+                    sans signification utilisée à titre provisoire pour 
+                    calibrer une mise en page, le texte définitif venant
+                     remplacer le faux-texte dès qu'il est prêt ou que 
+                     la mise en page est achevée. Généralement, on utilise 
+                     un texte en faux latin, le Lorem ipsum ou Lipsu
+                </div>
+            </div>
 
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 my-col"> 
+                    Le lorem ipsum est, en imprimerie, une suite de mots 
+                    sans signification utilisée à titre provisoire pour 
+                    calibrer une mise en page, le texte définitif venant
+                     remplacer le faux-texte dès qu'il est prêt ou que 
+                     la mise en page est achevée. Généralement, on utilise 
+                     un texte en faux latin, le Lorem ipsum ou Lipsum. 
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 my-col">                     
+                    Le lorem ipsum est, en imprimerie, une suite de mots 
+                    sans signification utilisée à titre provisoire pour 
+                    calibrer une mise en page, le texte définitif venant
+                     remplacer le faux-texte dès qu'il est prêt ou que 
+                     la mise en page est achevée. Généralement, on utilise 
+                     un texte en faux latin, le Lorem ipsum ou Lipsu
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 my-col"> 
+                    Le lorem ipsum est, en imprimerie, une suite de mots 
+                    sans signification utilisée à titre provisoire pour 
+                    calibrer une mise en page, le texte définitif venant
+                     remplacer le faux-texte dès qu'il est prêt ou que 
+                     la mise en page est achevée. Généralement, on utilise 
+                     un texte en faux latin, le Lorem ipsum ou Lipsu
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 my-col"> 
+                    Le lorem ipsum est, en imprimerie, une suite de mots 
+                    sans signification utilisée à titre provisoire pour 
+                    calibrer une mise en page, le texte définitif venant
+                     remplacer le faux-texte dès qu'il est prêt ou que 
+                     la mise en page est achevée. Généralement, on utilise 
+                     un texte en faux latin, le Lorem ipsum ou Lipsu
+                </div>
+            </div>
 
-                    disponibles pour répondre à toutes vos question.</p>
+           
+            
+        </div>
+             
     </section>
     <!-- ================================================================================== -->
     <!-- =======================   SECTION VI   =========================================== -->
@@ -325,7 +432,7 @@
             <h1 class="heading2 t5">Transformation</h1>
         </div>
         <div class="container">
-            <img src="img/ylines.png" class="ylinesright">
+            <!-- <img src="img/ylines.png" class="ylinesright"> -->
             <div class="whiteshape2">
                 <img src="img/whiteshape2.png">
                 <img src="img/verticalxxx.png" class="xxx2">
