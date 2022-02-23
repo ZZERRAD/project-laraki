@@ -277,12 +277,11 @@ p {
 /* ===================================================== */
 
 #about {
-    margin-top: 10%;
+    margin-top: 2%;
 }
 
 .section2 {
     margin-left: 50px;
-    margin-top: 5%;
 }
 .thecoach img {
     width: 100%;
@@ -291,7 +290,7 @@ p {
     margin-top: 50px;
 }
 .ylines {
-    position: absolute;
+    position: relative;
     width: 5%;
     z-index: 1;
 }
