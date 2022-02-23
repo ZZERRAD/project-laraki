@@ -1,3 +1,12 @@
+function showPopup() {
+    console.log("button clicked");
+    document.getElementsByClassName("popup")[0].style.display = "flex";
+}
+
+function closePopup() {
+    console.log("closing the popup");
+    document.getElementsByClassName("popup")[0].style.display = "none";    
+}
 
 document.addEventListener("DOMContentLoaded", function () {
 
