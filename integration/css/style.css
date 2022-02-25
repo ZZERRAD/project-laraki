@@ -129,6 +129,14 @@ p {
     background: #fff;
     color: var(--primary-color);
 }
+
+.modal-button {
+    background-color: var(--primary-color);
+    width : 35%;
+    color: #fff;
+    margin: auto;
+    margin-bottom: 3%;
+}
 .nav-button-scroll {
     background: transparent;
     color: var(--background-color);
