@@ -198,6 +198,7 @@ p {
 }
 .rejoinez {
     padding-bottom: 20%;
+    text-align: center;
 }
 .anchor2 {            /* <-- btn */
     font-size: 30px;
@@ -335,6 +336,7 @@ p {
 /* -----------   SECTION III -- VOS OBJECTIVES --------- */
 /* ===================================================== */
 .section3 {
+    padding: 12% 0;
     width: 100%;
     margin-top: 10%;
     background-position: center;
@@ -366,9 +368,11 @@ p {
     margin-top: 3%;
     position: absolute;
 }
+
 /* ===================================================== */
 /* -----------   SECTION IV -- NOS CLIENTS ------------- */
 /* ===================================================== */
+
 .whiteshape {
     position: absolute;
     left: 95%;
@@ -390,10 +394,10 @@ p {
 .slide {
     background-position: absolute;
     background-repeat: no-repeat;
-    width: 400px;
-    height: 400px;
+    width: 50%;
+    height: 20%;
     /* border: 10px solid #212121; */
-    transition: all .4s;
+    /* transition: all .4s; */
 }
 /* .slide:hover {
     cursor: default;
@@ -635,7 +639,4 @@ fieldset p {
  }
  /* END OF ANNIMATION */
 
-
-
-
-
+ 

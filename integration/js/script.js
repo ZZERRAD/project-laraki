@@ -8,6 +8,11 @@ function closePopup() {
     document.getElementsByClassName("popup")[0].style.display = "none";    
 }
 
+$(function(){
+    $('#carouselExampleControls.slide').carousel({
+        interval: false
+    });
+});
 document.addEventListener("DOMContentLoaded", function () {
 
     /* navbar change when scroll */
@@ -39,39 +44,39 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     /* responsive slide shows */
-    var x = window.matchMedia("(min-width: 991px)")
-    var y = window.matchMedia("()")
-    function myFunction(x) {
-        if (x.matches) {
-            $(document).ready(function () {
-                $("#lightSlider").lightSlider({
-                    loop: true,
-                    item: 3
-                });
-                $(document).ready(function () {
-                    $("#lightSlider2").lightSlider({
-                        loop: true,
-                        item: 2
-                    });
-                });
-            });
-        } else {
-            $(document).ready(function () {
-                $("#lightSlider").lightSlider({
-                    loop: true,
-                    item: 1
-                });
-                $(document).ready(function () {
-                    $("#lightSlider2").lightSlider({
-                        loop: true,
-                        item: 1
-                    });
-                });
-            });
-        }
-    }
-    myFunction(x)
-    x.addListener(myFunction)
+    // var x = window.matchMedia("(min-width: 991px)")
+    // var y = window.matchMedia("()")
+    // function myFunction(x) {
+    //     if (x.matches) {
+    //         $(document).ready(function () {
+    //             $("#lightSlider").lightSlider({
+    //                 loop: false,
+    //                 item: 3
+    //             });
+    //             $(document).ready(function () {
+    //                 $("#lightSlider2").lightSlider({
+    //                     loop: false,
+    //                     item: 2
+    //                 });
+    //             });
+    //         });
+    //     } else {
+    //         $(document).ready(function () {
+    //             $("#lightSlider").lightSlider({
+    //                 loop: false,
+    //                 item: 1
+    //             });
+    //             $(document).ready(function () {
+    //                 $("#lightSlider2").lightSlider({
+    //                     loop: false,
+    //                     item: 1
+    //                 });
+    //             });
+    //         });
+    //     }
+    // }
+    // myFunction(x)
+    // x.addListener(myFunction)
 
 });
 

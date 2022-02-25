@@ -20,6 +20,7 @@
         integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
         crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@1,900&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/756972d36a.js" crossorigin="anonymous"></script>
@@ -105,7 +106,7 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                        <form>
+                        <form action="mailto:margoumsaad3@gmail.com" method="post" enctype="text/plain">
                             <div class="form-group"></div>
                                 <label for="formGroupName">Nom et Prénom</label>
                                 <div class="form-row align-items-center">
@@ -130,107 +131,28 @@
                                         <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Téléphone">
                                     </div>
                                 </div>
+                                <label for="formGroupName">Age</label>
+                                <div class="col-8">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Age">
+                                    </div>
+                                </div>
+                                <label for="formGroupName">Raison de rejoindre</label>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control" id="inlineFormInputGroup" style="height: 10%; width: 100%;"></textarea>
+                                    </div>
+                                </div>
                             </div>
-                            <button type="button" class="btn modal-button">Save changes</button>
+                            <button type="submit" class="btn modal-button">soumettre</button>
                         </form>
-
-
-                        <!-- <form>
-                            <div class="form-group">
-                              <label for="formGroupName">Nom</label>
-                              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Entrez votre Nom">
-                            </div>
-                            <div class="form-group">
-                                <label for="formGroupFirstName">Prénom</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Entrez votre Prénom">
-                            </div>
-                            <div class="form-group">
-                                <label for="formGroupName">Ville</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Entrez votre Ville">
-                            </div>
-                            <div class="form-group">
-                              <label for="formGroupExampleInput2">Another label</label>
-                              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
-                            </div>
-                            <div class="form-group">
-                              <label for="exampleInputEmail1">Email address</label>
-                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                            </div>
-                            <div class="form-group">
-                              <label for="exampleInputPassword1">Password</label>
-                              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                            </div>
-                            <select class="form-control">
-                                <option>M</option>
-                                <option>F</option>
-                            </select>
-                            <hr>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                          </form> -->
                     </div>
-                    <div class="modal-footer">
-                      <!-- <button type="button" class="btn btn-secondary anchor1" data-dismiss="modal">Close</button> -->
-                      
+                    <div class="modal-footer">                      
                     </div>
                   </div>
                 </div>
               </div>
         </section>
-        
-        
-        <!-- <div class="popup">
-            <div class="popup-content">
-                <form>
-                    <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="inputPassword4">Password</label>
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-                    </div>
-                    </div>
-                    <div class="form-group">
-                    <label for="inputAddress">Address</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                    </div>
-                    <div class="form-group">
-                    <label for="inputAddress2">Address 2</label>
-                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                    </div>
-                    <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="inputCity">City</label>
-                        <input type="text" class="form-control" id="inputCity">
-                    </div>
-                    <div class="form-group col-md-4">
-                        <label for="inputState">State</label>
-                        <select id="inputState" class="form-control">
-                        <option selected>Choose...</option>
-                        <option>...</option>
-                        </select>
-                    </div>
-                    <div class="form-group col-md-2">
-                        <label for="inputZip">Zip</label>
-                        <input type="text" class="form-control" id="inputZip">
-                    </div>
-                    </div>
-                    <div class="form-group">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                        Check me out
-                        </label>
-                    </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary" id="test-popup">Sign in</button>
-                    <br>
-                    <a href="#" onclick="closePopup()"><img id="close-button" src="img/close-icon.jpeg" ></a>
-                </form>
-            </div>
-        </div> -->
     </div>
     <!-- ================================================================================== -->
     <!-- =======================   SECTION II   =========================================== -->
@@ -327,8 +249,8 @@
 
         </div>
 
-        <div class="rejoignez">
-            <a id="about" class="anchor2" data-toggle="modal" data-target="#exampleModal">Rejoinez-nous</a>
+        <div class="rejoignez" style="text-align: center;">
+            <a class="anchor2" data-toggle="modal" data-target="#exampleModal">Rejoinez-nous</a>
         </div>
     </section>
     <!-- ================================================================================== -->
@@ -344,50 +266,44 @@
                 <h1 class="heading1 t2">Nos clients</h1>
                 <h1 class="heading2 t2">Satisfaits</h1>
             </div>
-
             <!-- SLIDESHOW -->
-
-
-            <div class="my-2 slider">
-                <ul id="lightSlider">
-                    <!-- slider 1 -->
-                    <li>
-                        <div class="img-wrapper">
-                            <div class="slide slide1 d-flex align-baseline">
-                                <div class="detail">
-                                    <a href="#"><i class="fas fa-play-circle mr-3 ml-3 fa-4x"></i></a>
-                                    <h4 class="client mr-5 text-left">Othman Benhami (H-kayne)</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- slider 2 -->
-                    <li>
-                        <div class="img-wrapper">
-                            <div class="slide slide2 d-flex align-baseline">
-                                <div class="detail">
-                                    <a href="#"><i class="fas fa-play-circle mr-3 ml-3 fa-4x"></i></a>
-                                    <h4 class="client mr-5 text-left">Laila Hadioui (Manquin)</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- slider 3 -->
-                    <li>
-                        <div class="img-wrapper">
-                            <div class="slide slide3 d-flex align-baseline">
-                                <div class="detail">
-                                    <a href="#"><i class="fas fa-play-circle mr-3 ml-3 fa-4x"></i></a>
-                                    <h4 class="client mr-5 text-left">Othman Benhami (H-kayne)</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-                </ul>
-
+            <div id="carouselExampleControls" class="carousel slide"  style="margin: auto;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <!-- <img class="d-block w-100" src="img/img1.png" alt="First slide"> -->
+                    <video class="d-block w-100" width="400" controls>
+                        <source src="videos/video1.mp4" type="video/mp4">
+                        <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
+                        Your browser does not support HTML video.
+                      </video>
+                  </div>
+                
+                  <div class="carousel-item">
+                  <!-- <img class="d-block w-100" src="img/img1.png" alt="First slide"> -->
+                  <video class="d-block w-100" width="400" controls>
+                      <source src="videos/video1.mp4" type="video/mp4">
+                      <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
+                      Your browser does not support HTML video.
+                    </video>
+                </div>
+                
+                <div class="carousel-item">
+                  <!-- <img class="d-block w-100" src="img/img1.png" alt="First slide"> -->
+                  <video class="d-block w-100" width="400" controls>
+                      <source src="videos/video1.mp4" type="video/mp4">
+                      <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
+                      Your browser does not support HTML video.
+                    </video>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
             </div>
-
         </div>
     </section>
     <!-- ================================================================================== -->
@@ -493,54 +409,31 @@
 
 
         </div>
-        <div class="mb-5 pb-5 slider2 slider">
-            <ul id="lightSlider2">
-                <li><img src="img/transformation2.png"></li>
-                <li><img src="img/transformation1.png"></li>
-            </ul>
-        </div>
-
-
-
-    </section>
-    <!-- ================================================================================== -->
-    <!-- =======================   SECTION VII   ========================================== -->
-    <!-- ================================================================================== -->
-    <section id="contactUs" class="section7 mt-5">
-        <div class="text-center mt-5">
-            <h1 class="heading1 t5">Our best</h1>
-            <h1 class="heading2 t5">Transformation</h1>
-            <p class="paragraph p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda illo
-                quis magni voluptatum quos laborum aliquam explicabo optio at maxime.</p>
-        </div>
-        <div class="container d-flex justify-content-center py-sm-0">
-            <form id="contact" action="" method="post">
-                <div class="row">
-                    <div class="col-md-6">
-                        <fieldset>
-                            <p>Nom et Prénom</p>
-                            <input class="py-3 mx-0" placeholder="Entrez votre nom et prénom" type="text" tabindex="1"
-                                required autofocus>
-                        </fieldset>
-                    </div>
-                    <div class="col-md-6">
-                        <fieldset>
-                            <p>Téléphone:</p>
-                            <input class="py-3 mx-0" placeholder="Entrez votre numéro de téléphone" type="tel"
-                                tabindex="2" required>
-                        </fieldset>
-                    </div>
-                </div>
-                <fieldset>
-                    <p>Email</p>
-                    <input class="py-3" placeholder="Entrez votre adresse email" type="email" tabindex="3" required>
-                </fieldset>
-                <fieldset>
-                    <p>Message</p>
-                    <textarea class="py-3 pb-5" placeholder="Entrez votre message" tabindex="4" required></textarea>
-                </fieldset>
-                <a href="#" class="envoyez">Envoyez</a>
-            </form>
+        <div id="transformation-slides" class="carousel slide"  style="width: 80%; margin: 10px auto;">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <!-- <img class="d-block w-100" src="img/img1.png" alt="First slide"> -->
+                <img src="img/transformation1.png" style="width: 100%;">
+              </div>
+            
+              <div class="carousel-item">
+              <!-- <img class="d-block w-100" src="img/img1.png" alt="First slide"> -->
+              <img src="img/transformation2.png" style="width: 100%;">
+            </div>
+            
+            <div class="carousel-item">
+              <!-- <img class="d-block w-100" src="img/img1.png" alt="First slide"> -->
+              <img src="img/transformation1.png" style="width: 100%;">
+            </div>
+                <a class="carousel-control-prev" href="#transformation-slides" role="button" data-slide="prev" style="vertical-align: middle;">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#transformation-slides" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
+            </div>
         </div>
     </section>
     <!-- ================================================================================== -->
