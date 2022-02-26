@@ -8,11 +8,21 @@ function closePopup() {
     document.getElementsByClassName("popup")[0].style.display = "none";    
 }
 
+$('.carousel').carousel()
+
 $(function(){
     $('#carouselExampleControls.slide').carousel({
         interval: false
     });
 });
+
+
+$(function(){
+    $('#transformation-slides.slide').carousel({
+        interval: 2000
+    });
+});
+
 document.addEventListener("DOMContentLoaded", function () {
 
     /* navbar change when scroll */
