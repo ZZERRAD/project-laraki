@@ -8,6 +8,21 @@ function closePopup() {
     document.getElementsByClassName("popup")[0].style.display = "none";    
 }
 
+function sendEmail() {
+    console.log("we are sending an email")
+    Email.send({
+        Host : "smtp.gmail.com",
+        Username : "put the sender mail here",
+        Password : "the password here",
+        To : 'margoumsaad3@gmail.com',
+        From : "put the sender mail here",
+        Subject : "This is just a test",
+        Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    );
+}
+
 $('.carousel').carousel()
 
 $(function(){
