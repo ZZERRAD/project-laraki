@@ -114,46 +114,41 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                        <form>
-                            <div class="form-group"></div>
-                                <label for="formGroupName">Nom et Prénom</label>
-                                <div class="form-row align-items-center">
-                                    <div class="col-6">
-                                        <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Nom">
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="input-group mb-2">
-                                            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Prénom">
-                                        </div>
-                                    </div>
-                                </div>
-                                <label for="formGroupName">Ville</label>
-                                <div class="col-8">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Ville">
-                                    </div>
-                                </div>
-                                <label for="formGroupName">Téléphone</label>
-                                <div class="col-8">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Téléphone">
-                                    </div>
-                                </div>
-                                <label for="formGroupName">Age</label>
-                                <div class="col-8">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Age">
-                                    </div>
-                                </div>
-                                <label for="formGroupName">Raison de rejoindre</label>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <textarea class="form-control" id="inlineFormInputGroup" style="height: 10%; width: 100%;"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                            <button type="submit" class="btn modal-button" method="post" onclick="sendEmail()" >soumettre</button>
+                      <div class="container">
+                        <h1>Informations personnels</h1>
+                      
+                        <div id="feedback"></div>
+                      
+                        <form id="contact-form">
+                          <div class="form-group">
+                            <label>Nom: *</label>
+                            <input type="text" class="form-control" id="form-last-name" placeholder="Nom">
+                          </div>
+                          <div class="form-group">
+                            <label>Prénom: *</label>
+                            <input type="text" class="form-control" id="form-first-name" placeholder="Prénom">
+                          </div>
+                          <div class="form-group">
+                            <label>Ville: *</label>
+                            <input type="text" class="form-control" id="form-city" placeholder="Ville">
+                          </div>
+                          <div class="form-group">
+                            <label>numéro de téléphone *:</label>
+                            <input type="text" class="form-control" id="form-phone" placeholder="numéro de téléphone">
+                          </div>
+                          <div class="form-group">
+                            <label>Age: *</label>
+                            <input type="text" class="form-control" id="form-age" placeholder="Age">
+                          </div>
+                          <div class="form-group">
+                            <label>Motivation: *</label>
+                            <textarea type="text" class="form-control" id="form-motivation" placeholder="Motivation"></textarea>
+                          </div>
+                          <button class="btn btn-default" onclick="sendForm()">
+                            Send message
+                          </button>
                         </form>
+                    </div>
                     </div>
                     <div class="modal-footer">                      
                     </div>

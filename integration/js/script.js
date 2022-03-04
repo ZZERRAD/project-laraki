@@ -23,6 +23,64 @@ function sendEmail() {
     );
 }
 
+
+//SendForm
+
+function sendForm() {
+    console.log("////////// 0 //////////");
+    event.preventDefault();
+    console.log("////////// 1 //////////");
+    $('#feedback').html('');
+    console.log("////////// 2 //////////");
+    setTimeout(function() {
+        // Get data
+      var data = {
+          /*'entry.1281023424': $('#formLastName').val(), 
+        'entry.1340476213': $('#formFirstName').val(),
+        'entry.1457020554': $('#formCity').val(),
+        'entry.1113169894': $('#formPhone').val(),
+        'entry.932219397': $('#formAge').val(),
+        */
+        'entry.1281023424': $('#form-last-name').val(),
+        'entry.1340476213': $('#form-first-name').val(),
+        'entry.1457020554': $('#form-city').val(),
+        'entry.1113169894': $('#form-phone').val(),
+        'entry.932219397' : $('#form-age').val(),
+        'entry.1043652161': $('#form-motivation').val()
+      };
+          
+      // Validate form
+      var formSuccess = true;
+      Object.keys(data).forEach(function(key, index) {
+        if (!data[key]) {
+          formSuccess = false;
+          $('#feedback').html('<label class="text-danger">Please complete all fields</label>');
+        }
+      });
+  
+      if (formSuccess) {
+        // Send request
+        $.ajax({
+          url: 'https://docs.google.com/forms/d/e/1FAIpQLSfVcYGAY6pBqbcgr85aYboEAv9FGL-QSBtY_e-Vrew-asXoKw/formResponse',
+          type: 'POST',
+          crossDomain: true,
+          dataType: "xml",
+          data: data,
+          success: function(jqXHR, textStatus, errorThrown) {
+            console.log('Enter on success');
+            $('#feedback').html('<label class="text-success">Message sent!</label>');
+          },
+          error: function(jqXHR, textStatus, errorThrown) {
+            console.log('Enter on error');
+            $('#feedback').html('<label class="text-success">Message sent!</label>');
+          }
+        });
+      }
+    }, 300);
+}
+
+
+
 $('.carousel').carousel()
 
 $(function(){
