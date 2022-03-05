@@ -107,54 +107,90 @@
                      
                       <h5 class="modal-title"> 
                           <img src="img/favicon.png" width="10%" />
-                          Team Greek Gods
+                          Rejoignez la Team Greek Gods
                       </h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
                     <div class="modal-body">
-                      <div class="container">
-                        <h1>Informations personnels</h1>
                       
                         <div id="feedback"></div>
-                      
-                        <form id="contact-form">
-                          <div class="form-group">
-                            <label>Nom: *</label>
-                            <input type="text" class="form-control" id="form-last-name" placeholder="Nom">
+
+                        <form>
+                          <div class="form-group"></div>
+                              <label for="formGroupName">Nom et Prénom</label>
+                              <div class="form-row align-items-center">
+                                  <div class="col-6">
+                                      <input type="text" class="form-control mb-2" id="form-last-name" placeholder="Nom">
+                                  </div>
+                                  <div class="col-6">
+                                      <div class="input-group mb-2">
+                                          <input type="text" class="form-control" id="form-first-name" placeholder="Prénom">
+                                      </div>
+                                  </div>
+                              </div>
+                              <label for="formGroupName">Ville</label>
+                              <div class="col-8">
+                                  <div class="form-group">
+                                      <input type="text" class="form-control" id="form-city" placeholder="Ville">
+                                  </div>
+                              </div>
+                              <label for="formGroupName">Téléphone</label>
+                              <div class="col-8">
+                                  <div class="form-group">
+                                      <input type="text" class="form-control" id="form-phone" placeholder="Téléphone">
+                                  </div>
+                              </div>
+                              <label for="formGroupName">Age</label>
+                              <div class="col-8">
+                                  <div class="form-group">
+                                      <input type="text" class="form-control" id="form-age" placeholder="Age">
+                                  </div>
+                              </div>
+                              <label for="formGroupName">Raison de rejoindre</label>
+                              <div class="col-12">
+                                  <div class="form-group">
+                                      <textarea class="form-control" id="form-motivation" style="height: 10%; width: 100%;"></textarea>
+                                  </div>
+                              </div>
                           </div>
-                          <div class="form-group">
-                            <label>Prénom: *</label>
-                            <input type="text" class="form-control" id="form-first-name" placeholder="Prénom">
-                          </div>
-                          <div class="form-group">
-                            <label>Ville: *</label>
-                            <input type="text" class="form-control" id="form-city" placeholder="Ville">
-                          </div>
-                          <div class="form-group">
-                            <label>numéro de téléphone *:</label>
-                            <input type="text" class="form-control" id="form-phone" placeholder="numéro de téléphone">
-                          </div>
-                          <div class="form-group">
-                            <label>Age: *</label>
-                            <input type="text" class="form-control" id="form-age" placeholder="Age">
-                          </div>
-                          <div class="form-group">
-                            <label>Motivation: *</label>
-                            <textarea type="text" class="form-control" id="form-motivation" placeholder="Motivation"></textarea>
-                          </div>
-                          <button class="btn btn-default" onclick="sendForm()">
-                            Send message
-                          </button>
-                        </form>
-                    </div>
+                          <button type="submit" class="btn modal-button" onclick="sendForm()" data-dismiss="modal" data-toggle="modal" data-target="#exampleModalCenter">soumettre</button>
+                      </form>
+
                     </div>
                     <div class="modal-footer">                      
                     </div>
                   </div>
                 </div>
               </div>
+
+
+
+
+              <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                Launch demo modal
+              </button> -->
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalCenterTitle">
+                        Vos informations ont été envoyées, nous allons vous contacter dans les plus brefs délais !
+                      </h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+
+
+
         </section>
     </div>
     <!-- ================================================================================== -->
@@ -273,40 +309,32 @@
 
             
             <!-- SLIDESHOW -->
-            <div id="carouselExampleControls" class="carousel slide"  style="margin: auto; max-width: 500px;">
+            <!-- <div id="carouselExampleControls" class="carousel slide"  style="margin: auto; max-width: 500px;">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <!-- <img class="d-block w-100" src="img/img1.png" alt="First slide"> -->
                     <video class="d-block w-100" width="400" controls>
                         <source src="videos/video1.mp4" type="video/mp4">
-                        <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
                         Your browser does not support HTML video.
                       </video>
                   </div>
                 
                   <div class="carousel-item">
-                  <!-- <img class="d-block w-100" src="img/img1.png" alt="First slide"> -->
                   <video class="d-block w-100" width="400" controls>
                       <source src="videos/video2.mp4" type="video/mp4">
-                      <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
                       Your browser does not support HTML video.
                     </video>
                 </div>
                 
                 <div class="carousel-item">
-                  <!-- <img class="d-block w-100" src="img/img1.png" alt="First slide"> -->
                   <video class="d-block w-100" width="400" controls>
                       <source src="videos/video3.mp4" type="video/mp4">
-                      <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
                       Your browser does not support HTML video.
                     </video>
                 </div>
 
                 <div class="carousel-item">
-                    <!-- <img class="d-block w-100" src="img/img1.png" alt="First slide"> -->
                     <video class="d-block w-100" width="400" controls>
                         <source src="videos/video4.mp4" type="video/mp4">
-                        <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
                         Your browser does not support HTML video.
                       </video>
                   </div>
@@ -327,7 +355,78 @@
                     <li data-target="#carouselExampleControls" data-slide-to="3"></li>
                 </ol>
             </div>
+        </div> -->
+
+
+        <div class="w3-content" style="max-width:500px">
+          <video class="mySlidesVideo " width="400" style="width:100%;display:none" controls>
+            <source src="videos/video11.mp4" type="video/mp4">
+            <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
+            Your browser does not support HTML video.
+          </video>
+          <video class="mySlidesVideo " width="400" controls>
+            <source src="videos/video22.mp4" type="video/mp4">
+            <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
+            Your browser does not support HTML video.
+          </video>
+          <video class="mySlidesVideo " width="400" style="width:100%;display:none" controls>
+            <source src="videos/video33.mp4" type="video/mp4">
+            <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
+            Your browser does not support HTML video.
+          </video>
+          <video class="mySlidesVideo " width="400" style="width:100%;display:none" controls>
+            <source src="videos/video44.mp4" type="video/mp4">
+            <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
+            Your browser does not support HTML video.
+          </video>
+          <!-- <video class="mySlidesVideo" src="videos/video11.mp4" style="width:100%;display:none">
+          <video class="mySlidesVideo" src="videos/video22.mp4" style="width:100%;">
+          <video class="mySlidesVideo" src="videos/video33.mp4" style="width:100%;display:none">
+          <video class="mySlidesVideo" src="videos/video44.mp4" style="width:100%;display:none"> -->
+      
+          <div class="w3-row-padding w3-section">
+            <div class="w3-col s3">
+              <video class="demoVideo w3-opacity w3-hover-opacity-off" src="videos/video11.mp4" style="width:100%;cursor:pointer" onclick="currentDivVideo(1)">
+            </div>
+            <div class="w3-col s3">
+              <video class="demoVideo w3-opacity w3-hover-opacity-off" src="videos/video22.mp4" style="width:100%;cursor:pointer" onclick="currentDivVideo(2)">
+            </div>
+            <div class="w3-col s3">
+              <video class="demoVideo w3-opacity w3-hover-opacity-off" src="videos/video33.mp4" style="width:100%;cursor:pointer" onclick="currentDivVideo(3)">
+            </div>
+            <div class="w3-col s3">
+              <video class="demoVideo w3-opacity w3-hover-opacity-off" src="videos/video44.mp4" style="width:100%;cursor:pointer" onclick="currentDivVideo(4)">
+            </div>
+          </div>
         </div>
+
+
+
+
+
+        <script>
+
+          currentDivVideo(1);
+          function currentDivVideo(n) {
+            showDivsVideo(slideIndexVideo = n);
+          }
+          
+          function showDivsVideo(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlidesVideo");
+            var dots = document.getElementsByClassName("demoVideo");
+            if (n > x.length) {slideIndexVideo = 1}
+            if (n < 1) {slideIndexVideo = x.length}
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+            }
+            x[slideIndexVideo-1].style.display = "block";
+            dots[slideIndexVideo-1].className += " w3-opacity-off";
+          }
+          </script>    
     </section>
     <!-- ================================================================================== -->
     <!-- =======================   SECTION V   ============================================ -->
@@ -337,8 +436,8 @@
             <h1 class="heading1 ml-3 t4">nos</h1>
             <h1 class="heading3 ml-3 t4">Programmes</h1>
         </div>
-        <div class="container-fluid">
-            <div class="row">
+        <div class="container-fluid" style="margin: auto;">
+            <div class="row" style="margin: auto;">
                 <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 my-col step "> 
                     <img src="img/form.png" width="25%" style="margin: 6%;"/>
                     <h5><b>1. Prise de Contact</b></h5>
@@ -390,7 +489,7 @@
     <section id="transformation">
         <div class="text-center my-5">
             <h1 class="heading1 t5">Our best</h1>
-            <h1 class="heading2 t5">Transformation</h1>
+            <h1 class="heading2 t5">Transformations</h1>
         </div>
         <div class="container">
             <!-- <img src="img/ylines.png" class="ylinesright"> -->
@@ -541,7 +640,6 @@ function showDivs(n, no) {
   </div>
   
   <script>
-
   currentDiv(1);
   function currentDiv(n) {
     showDivs(slideIndex = n);

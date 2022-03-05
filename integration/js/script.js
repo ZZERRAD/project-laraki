@@ -68,18 +68,16 @@ function sendForm() {
           data: data,
           success: function(jqXHR, textStatus, errorThrown) {
             console.log('Enter on success');
-            $('#feedback').html('<label class="text-success">Message sent!</label>');
+            $('#feedback').html('<label class="text-success">Informations envoyées <br> Nous allons vous contacter dans les plus brefs délais !</label>');
           },
           error: function(jqXHR, textStatus, errorThrown) {
             console.log('Enter on error');
-            $('#feedback').html('<label class="text-success">Message sent!</label>');
+            $('#feedback').html('<label class="text-success">Informations envoyées!</label>');
           }
         });
       }
     }, 300);
 }
-
-
 
 $('.carousel').carousel()
 
