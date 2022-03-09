@@ -127,9 +127,13 @@ $(function(){
 
 function displayVideo() {
   document.getElementById("CoachVideo").style.display = "block";
+  document.getElementById("LinkCoachVideo").outerHTML ="";
 }
 
-
+function remove(el) {
+  var element = el;
+  element.remove();
+}
 
 
 document.addEventListener("DOMContentLoaded", function () {
