@@ -125,6 +125,11 @@ $(function(){
 // }
 
 
+function displayVideo() {
+  document.getElementById("CoachVideo").style.display = "block";
+}
+
+
 
 
 document.addEventListener("DOMContentLoaded", function () {
