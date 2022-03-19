@@ -8,6 +8,8 @@
 body, html {
     min-height: 100%;
     background: var(--background-color);
+    font-family: 'Orbitron', sans-serif !important;
+    font-weight: normal;
 }
 html {
     scroll-behavior: smooth;
@@ -21,27 +23,36 @@ a, a:hover {
     text-decoration: none;
 }
 .heading1 {
+    font-family: 'Orbitron', sans-serif;
     font-weight: 900;
     color: transparent;
-    -webkit-text-stroke: 0.17vw #fff;
+    -webkit-text-stroke: 0.1vw #fff;
     text-transform: uppercase;
     font-style: italic;
+    font-size: 200% !important;
 }
 .heading2 {
+    font-family: 'Orbitron', sans-serif;
     font-weight: 900;
     text-transform: uppercase;
     font-style: italic;
     color: var(--primary-color);
     line-height: 30px;
+    font-size: 200% !important;
 }
 .heading3 {
     font-weight: 900;
+    font-family: 'Orbitron', sans-serif;
     text-transform: uppercase;
     font-style: italic;
     color: #fff;
     line-height: 30px;
+    font-size: 200% !important;
 }
+
+
 p {
+    font-family: 'Orbitron', sans-serif;
     margin: 20px 0px;
 }
 .paragraph {
@@ -251,7 +262,7 @@ p {
 .anchor5 {            /* <-- btn */
     border: 2px solid #fff;
     padding: 8px 7%;
-    font-size: 1.8vh !important;
+    font-size: 150% !important;
     color: #fff !important;
     background: transparent;
     /* position: absolute;  */
@@ -512,7 +523,10 @@ margin-right: 15%;
     text-align: center;
     width: 90%;
     margin: 10px auto;
+    font-family: 'Orbitron', sans-serif;
 }
+
+
 
 .anchor3 {
     font-size: 1.5vw;
