@@ -8,7 +8,8 @@
 body, html {
     min-height: 100%;
     background: var(--background-color);
-    font-family: 'Orbitron', sans-serif !important;
+    /*font-family: 'Orbitron', sans-serif !important;*/
+    font-family: 'Open Sans';
     font-weight: normal;
 }
 html {
@@ -23,16 +24,18 @@ a, a:hover {
     text-decoration: none;
 }
 .heading1 {
-    font-family: 'Orbitron', sans-serif;
+    /* font-family: 'Orbitron', sans-serif; */
+    font-family: 'Open Sans';
     font-weight: 900;
     color: transparent;
-    -webkit-text-stroke: 0.1vw #fff;
+    -webkit-text-stroke: 0.03vw #fff;
     text-transform: uppercase;
     font-style: italic;
     font-size: 200% !important;
 }
 .heading2 {
-    font-family: 'Orbitron', sans-serif;
+    /* font-family: 'Orbitron', sans-serif; */
+    font-family: 'Open Sans';
     font-weight: 900;
     text-transform: uppercase;
     font-style: italic;
@@ -42,7 +45,8 @@ a, a:hover {
 }
 .heading3 {
     font-weight: 900;
-    font-family: 'Orbitron', sans-serif;
+    /* font-family: 'Orbitron', sans-serif; */
+    font-family: 'Open Sans';    
     text-transform: uppercase;
     font-style: italic;
     color: #fff;
@@ -52,7 +56,8 @@ a, a:hover {
 
 
 p {
-    font-family: 'Orbitron', sans-serif;
+    /* font-family: 'Orbitron', sans-serif; */
+    font-family: 'Open Sans';
     margin: 20px 0px;
 }
 .paragraph {
@@ -523,7 +528,8 @@ margin-right: 15%;
     text-align: center;
     width: 90%;
     margin: 10px auto;
-    font-family: 'Orbitron', sans-serif;
+    /* font-family: 'Orbitron', sans-serif; */
+    font-family: 'Open Sans';
 }
 
 
