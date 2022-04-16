@@ -23,6 +23,12 @@ function sendEmail() {
     );
 }
 
+function stopVideo() {
+  const video = document.getElementById("coach-video");
+  video.pause();
+  video.currentTime = 0;
+}
+
 
 //SendForm
 

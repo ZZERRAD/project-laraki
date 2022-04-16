@@ -70,7 +70,7 @@
                 <div class="lines line3"></div>
             </button>
 
-            <div style="font-family: 'Montserrat'" class="collapse navbar-collapse align-items-center justify-content-center" id="myNavbar">
+            <div class="collapse navbar-collapse align-items-center justify-content-center" id="myNavbar">
                 <ul class="navbar-nav">
                     <!-- <li class="nav-item mx-2 text-uppercase"><a href="#home" class="nav-link menu-item">Acceuil</a></li> -->
                     <li class="nav-item mx-2 text-uppercase"><a href="#about" class="nav-link menu-item">Votre&nbspcoach</a></li>
@@ -140,10 +140,6 @@
                                       </div>
                                   </div>
                               </div>
-
-
-                              
-
                               <label for="formGroupName"></label>
                               <div class="form-row align-items-center">
                                   <div class="col-6">
@@ -236,14 +232,14 @@
                         efficacement et durablement.
                     </p>
                     <a id="LinkCoachVideo" class="link d-flex align-items-center watch-link mb-sm-5">
-                      <a href="https://www.youtube.com/embed/dkMFdNEwT90" target="_blank">
-                      <button style="font-size: 150%;" class="anchor5">
-                        <!-- <a href="https://www.youtube.com/embed/dkMFdNEwT90" target="_blank"> -->
-                        Regarder la vidéo
-                        <i class="fas fa-play-circle fa-lg mr-lg-3 mr-md-2 mr-sm-1 text-light"></i>
-                        <!-- <i class="fas fa-play-circle fa-lg mr-lg-3 mr-md-2 mr-sm-1 text-light" onclick="displayVideo(); remove(this)"></i>-->
-                      </button>
-                    </a>
+                      <a>
+                        <button style="font-size: 150%;" class="anchor5" data-toggle="modal" data-target="#exampleModal2">
+                          <!-- <a> -->
+                          Regarder la vidéo
+                          <i class="fas fa-play-circle fa-lg mr-lg-3 mr-md-2 mr-sm-1 text-light"></i>
+                          <!-- <i class="fas fa-play-circle fa-lg mr-lg-3 mr-md-2 mr-sm-1 text-light" onclick="displayVideo(); remove(this)"></i>-->
+                        </button>
+                      </a>
                     </a>
                 </div>
                 <div class="col-lg-6">
@@ -257,6 +253,26 @@
             <iframe id="CoachVideo" width="70%" height="350px" src="https://www.youtube.com/embed/dkMFdNEwT90" title="YouTube video player" frameborder="0" style="display: none; margin: auto; margin-top: 20px;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
+        <div class="modal" id="exampleModal2" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo()">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  <video id="coach-video" style="width:100%; margin: auto;" controls>
+                    <source src="videos/FullSizeRender.MOV" type="video/mp4">
+                    <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
+                    Your browser does not support HTML video.
+                  </video>
+              </div>
+              <div class="modal-footer">                      
+              </div>
+            </div>
+          </div>
+        </div>
     </section>
     <!-- ================================================================================== -->
     <!-- =======================   SECTION III   ========================================== -->
@@ -384,8 +400,8 @@
             <div class="row" style="margin: auto;">
                 <div class="col-xs-12 col-sm-9 col-md-2 col-lg-2 my-col step"> 
                     <img src="img/form.png" width="25%" style="margin: 6%;"/>
-                    <!-- <h5 style="font-family: 'Orbitron', sans-serif;"><b>1. Prise de Contact</b></h5> -->
-                    <h5 style="font-family: 'Montserrat'"><b>1. Prise de Contact</b></h5>
+                    <h5 style="font-family: 'Orbitron', sans-serif;"><b>1. Prise de Contact</b></h5>
+                    <!-- <h5 style="font-family: 'Montserrat'"><b>1. Prise de Contact</b></h5> -->
                     <p class="paragraph text-md-center ">
                     <hr style="background-color: #fff;">
                     Contactez nous en remplissant le formulaire
@@ -395,8 +411,8 @@
                 </div>
                 <div class="col-xs-12 col-sm-9 col-md-2 col-lg-2 my-col step"> 
                     <img src="img/phone.png" width="25%" style="margin: 6%;"/>
-                    <!-- <h5 style="font-family: 'Orbitron', sans-serif;"><b>2. On vous appelle </b></h5> -->
-                    <h5 style="font-family: 'Montserrat'"><b>2. On vous appelle </b></h5>
+                    <h5 style="font-family: 'Orbitron', sans-serif;"><b>2. On vous appelle </b></h5>
+                    <!-- <h5 style="font-family: 'Montserrat'"><b>2. On vous appelle </b></h5> -->
                     <p class="paragraph text-md-center ">
                     <hr style="background-color: #fff;">
                     L'équipe vous contacte pour vous expliquer le processus et vous
@@ -414,8 +430,8 @@
                 </div>
                 <div class="col-xs-12 col-sm-9 col-md-2 col-lg-2 my-col step"> 
                     <img src="img/whatsapp.png" width="25%" style="margin: 6%;"/>
-                    <!-- <h5 style="font-family: 'Orbitron', sans-serif;"><b>4. Whatsapp </b></h5> -->
-                    <h5 style="font-family: 'Montserrat'"><b>4. Whatsapp </b></h5>
+                    <h5 style="font-family: 'Orbitron', sans-serif;"><b>4. Whatsapp </b></h5>
+                    <!-- <h5 style="font-family: 'Montserrat'"><b>4. Whatsapp </b></h5> -->
                     <p class="paragraph text-md-center ">
                     <hr style="background-color: #fff;">
                     Redirection vers whatsapp où vous serez directement en contact avec le coach et que l'aventure commence !
