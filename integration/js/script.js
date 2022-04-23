@@ -8,20 +8,7 @@ function closePopup() {
     document.getElementsByClassName("popup")[0].style.display = "none";    
 }
 
-function sendEmail() {
-    console.log("we are sending an email")
-    Email.send({
-        Host : "smtp.gmail.com",
-        Username : "put the sender mail here",
-        Password : "the password here",
-        To : 'margoumsaad3@gmail.com',
-        From : "put the sender mail here",
-        Subject : "This is just a test",
-        Body : "And this is the body"
-    }).then(
-      message => alert(message)
-    );
-}
+
 
 function stopVideo() {
   const video = document.getElementById("coach-video");
@@ -47,12 +34,13 @@ function sendForm() {
         'entry.1113169894': $('#formPhone').val(),
         'entry.932219397': $('#formAge').val(),
         */
-        'entry.1281023424': $('#form-last-name').val(),
-        'entry.1340476213': $('#form-first-name').val(),
-        'entry.1457020554': $('#form-city').val(),
-        'entry.1113169894': $('#form-phone').val(),
-        'entry.932219397' : $('#form-age').val(),
-        'entry.1043652161': $('#form-motivation').val()
+        'entry.1576549415': $('#form-last-name').val(),
+
+        'entry.532877400': $('#form-first-name').val(),
+        'entry.1921812789': $('#form-city').val(),
+        'entry.2058870352': $('#form-phone').val(),
+        'entry.47157907' : $('#form-age').val(),
+        'entry.367979255': $('#form-motivation').val()
       };
           
       // Validate form
@@ -67,7 +55,7 @@ function sendForm() {
       if (formSuccess) {
         // Send request
         $.ajax({
-          url: 'https://docs.google.com/forms/d/e/1FAIpQLSfVcYGAY6pBqbcgr85aYboEAv9FGL-QSBtY_e-Vrew-asXoKw/formResponse',
+          url: 'https://docs.google.com/forms/d/e/1FAIpQLScEkwfDG1n4SN5WGupZUie3p56DMKETU9IyZ_qvLRPE7ivifQ/formResponse',
           type: 'POST',
           crossDomain: true,
           dataType: "xml",

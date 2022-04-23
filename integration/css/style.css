@@ -8,7 +8,8 @@
 body, html {
     min-height: 100%;
     background: var(--background-color);
-    font-family: 'Orbitron', sans-serif !important;
+    /* font-family: 'Orbitron', sans-serif !important; */
+    font-family: 'Source Sans Pro', sans-serif !important;
     /* font-family: 'Open Sans'; */
     font-weight: normal;
     letter-spacing: 1px;
@@ -25,8 +26,9 @@ a, a:hover {
     text-decoration: none;
 }
 .heading1 {
-    font-family: 'Orbitron', sans-serif; 
+    /* font-family: 'Orbitron', sans-serif;  */
     /* font-family: 'Montserrat'; */
+    font-family: 'Source Sans Pro', sans-serif !important;
     font-weight: 900;
     color: transparent;
     -webkit-text-stroke: 0.04vw #fff;
@@ -35,7 +37,8 @@ a, a:hover {
     font-size: 200% !important;
 }
 .heading2 {
-    font-family: 'Orbitron', sans-serif; 
+    /* font-family: 'Orbitron', sans-serif;  */
+    font-family: 'Source Sans Pro', sans-serif !important;
     /* font-family: 'Montserrat'; */
     font-weight: 900;
     text-transform: uppercase;
@@ -46,7 +49,8 @@ a, a:hover {
 }
 .heading3 {
     font-weight: 900;
-    font-family: 'Orbitron', sans-serif;
+    /* font-family: 'Orbitron', sans-serif; */
+    font-family: 'Source Sans Pro', sans-serif !important;
     /* font-family: 'Montserrat';     */
     text-transform: uppercase;
     font-style: italic;
@@ -55,17 +59,21 @@ a, a:hover {
     font-size: 200% !important;
 }
 
+.h5 {
+    font-weight: 400;
+}
 
 p {
-    font-family: 'Orbitron', sans-serif;
+    /* font-family: 'Orbitron', sans-serif; */
+    font-family: 'Source Sans Pro', sans-serif !important;
     /* font-family: 'Open Sans'; */
     margin: 20px 0px;
 }
 .paragraph {
-    font-size: 25px;
+    /* font-size: 19px ; */
     color: #fff;
     letter-spacing: 0.1px;
-    font-weight: 200;
+    font-weight: 590 !important;
     line-height: 25px;
 }
 .t2, .t4, .t5, .t6 {
@@ -529,8 +537,10 @@ margin-right: 15%;
     text-align: center;
     width: 90%;
     margin: 10px auto;
-    font-family: 'Orbitron', sans-serif;
+    /* font-family: 'Orbitron', sans-serif; */
+    font-family: 'Source Sans Pro', sans-serif !important;
     font-size: 18px;
+    font-weight: 750;
     /* font-family: 'Open Sans'; */
 }
 
