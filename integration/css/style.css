@@ -3,7 +3,7 @@
 /* ===================================================== */
 :root { 
     --primary-color: #a98f59;
-    --background-color: #212121; 
+    --background-color: #181717; 
 }
 body, html {
     min-height: 100%;
@@ -86,7 +86,7 @@ p {
 .section1 {
     padding: 0%;
     margin: 0%;
-    background: url(../img/zeus-image-adapted.jpg) center/cover;
+    background: url(../img/zeus30.png) center/cover;
     background-position: absolute;
     background-repeat: no-repeat;
     width: 100%;
