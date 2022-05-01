@@ -103,6 +103,9 @@
     .heading2 {
         font-size: 500% !important;
     }
+    .heading3 {
+        font-size: 500% !important;
+    }
 }
 @media(max-width: 1200px){
     body {
@@ -216,6 +219,9 @@
         font-size: 290% !important;
     }
     .heading2 {
+        font-size: 290% !important;
+    }
+    .heading3 {
         font-size: 290% !important;
     }
 } 
