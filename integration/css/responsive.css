@@ -96,6 +96,13 @@
     .navbar-expand-custom .navbar-toggler {
         display: none;
     }
+    .heading1 {
+        -webkit-text-stroke: 0.05vw #fff !important;
+        font-size: 500% !important;
+    }
+    .heading2 {
+        font-size: 500% !important;
+    }
 }
 @media(max-width: 1200px){
     body {
@@ -183,9 +190,7 @@
    .t2,.t4,.t5 {
         font-size: 60px;
     }
-   .heading1 {
-       -webkit-text-stroke: 1.5px #fff;
-   }
+
    .paragraph {
        font-weight: 100px;
        line-height: 24px;
@@ -206,6 +211,13 @@
     .client {
     font-size: 16px;
 }
+    .heading1 {
+        -webkit-text-stroke: 0.6px #fff;
+        font-size: 290% !important;
+    }
+    .heading2 {
+        font-size: 290% !important;
+    }
 } 
 @media (max-width: 767px) {
     .leftside {
@@ -342,9 +354,6 @@
     }
     .t2,.t4,.t5 {
         font-size: 35px;
-    }
-    .heading1 {
-        -webkit-text-stroke: 0.19vw #fff;
     }
     .thecoach {
         width: 100%;
