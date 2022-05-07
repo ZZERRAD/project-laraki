@@ -86,7 +86,7 @@ p {
 .section1 {
     padding: 0%;
     margin: 0%;
-    background: url(../img/zeus30.png) center/cover;
+    background: url(../img/background-test4.png) center/cover;
     background-position: absolute;
     background-repeat: no-repeat;
     width: 100%;
@@ -215,7 +215,7 @@ p {
 /* -----------   SECTION I -------------- BANNER ------- */
 /* ===================================================== */
 .banner {
-    padding-top: 350px;
+    padding-top: 50vh !important;
 }
 .t1 {
     font-size: 125px;

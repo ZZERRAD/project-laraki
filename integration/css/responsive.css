@@ -215,11 +215,11 @@
     font-size: 16px;
 }
     .heading1 {
-        -webkit-text-stroke: 0.6px #fff;
-        font-size: 290% !important;
+        -webkit-text-stroke: 0.9px #fff;
+        font-size: 370% !important;
     }
     .heading2 {
-        font-size: 290% !important;
+        font-size: 330% !important;
     }
     .heading3 {
         font-size: 290% !important;
