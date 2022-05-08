@@ -215,11 +215,11 @@
     font-size: 16px;
 }
     .heading1 {
-        -webkit-text-stroke: 0.9px #fff;
-        font-size: 370% !important;
+        -webkit-text-stroke: 0.6px #fff;
+        font-size: 300% !important;
     }
     .heading2 {
-        font-size: 330% !important;
+        font-size: 300% !important;
     }
     .heading3 {
         font-size: 290% !important;
@@ -259,7 +259,7 @@
         color: #fff;
     }
     /* section1 */
-    .section1 {
+    .section1 {
         height: 80vh;
     }
     .banner {
@@ -422,4 +422,3 @@
         
     }
 } 
-
